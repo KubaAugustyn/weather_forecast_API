@@ -1,4 +1,4 @@
-package pl.kurs.enums;
+package pl.kurs.weatherforecastapp.enums;
 
 public enum WeatherType {
     SUNNY(10),

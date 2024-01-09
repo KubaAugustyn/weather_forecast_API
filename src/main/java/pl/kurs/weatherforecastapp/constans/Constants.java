@@ -1,4 +1,4 @@
-package pl.kurs.constans;
+package pl.kurs.weatherforecastapp.constans;
 
 public class Constants {
     public static final String BASE = "http://api.weatherapi.com/v1";

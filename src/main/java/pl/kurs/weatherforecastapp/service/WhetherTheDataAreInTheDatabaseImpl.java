@@ -1,7 +1,7 @@
-package pl.kurs.service;
+package pl.kurs.weatherforecastapp.service;
 
 import org.apache.commons.dbcp2.BasicDataSource;
-import pl.kurs.interfaces.WhetherTheDataAreInTheDatabase;
+import pl.kurs.weatherforecastapp.interfaces.WhetherTheDataAreInTheDatabase;
 
 import java.sql.*;
 import java.time.LocalDate;

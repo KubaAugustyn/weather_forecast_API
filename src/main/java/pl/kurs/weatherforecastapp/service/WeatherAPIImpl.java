@@ -1,18 +1,18 @@
-package pl.kurs.service;
+package pl.kurs.weatherforecastapp.service;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import okhttp3.Response;
 import org.apache.commons.dbcp2.BasicDataSource;
-import pl.kurs.enums.WeatherType;
-import pl.kurs.exceptions.TheSelectedCityDoesNotExistException;
-import pl.kurs.interfaces.ApiConnection;
-import pl.kurs.interfaces.WhetherTheDataAreInTheDatabase;
-import pl.kurs.interfaces.UrlStringBuilder;
-import pl.kurs.interfaces.WeatherAPI;
-import pl.kurs.model.Forecast;
-import pl.kurs.model.WeatherInfo;
+import pl.kurs.weatherforecastapp.enums.WeatherType;
+import pl.kurs.weatherforecastapp.exceptions.TheSelectedCityDoesNotExistException;
+import pl.kurs.weatherforecastapp.interfaces.ApiConnection;
+import pl.kurs.weatherforecastapp.interfaces.WhetherTheDataAreInTheDatabase;
+import pl.kurs.weatherforecastapp.interfaces.UrlStringBuilder;
+import pl.kurs.weatherforecastapp.interfaces.WeatherAPI;
+import pl.kurs.weatherforecastapp.model.Forecast;
+import pl.kurs.weatherforecastapp.model.WeatherInfo;
 
 import java.io.IOException;
 import java.math.BigDecimal;

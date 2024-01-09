@@ -1,4 +1,4 @@
-package pl.kurs.model;
+package pl.kurs.weatherforecastapp.model;
 
 import java.util.List;
 

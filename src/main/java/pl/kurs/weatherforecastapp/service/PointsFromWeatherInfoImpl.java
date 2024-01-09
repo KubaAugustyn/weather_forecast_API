@@ -1,8 +1,8 @@
-package pl.kurs.service;
+package pl.kurs.weatherforecastapp.service;
 
-import pl.kurs.interfaces.PointsFromWeatherInfo;
-import pl.kurs.model.Forecast;
-import pl.kurs.model.WeatherInfo;
+import pl.kurs.weatherforecastapp.interfaces.PointsFromWeatherInfo;
+import pl.kurs.weatherforecastapp.model.Forecast;
+import pl.kurs.weatherforecastapp.model.WeatherInfo;
 
 import java.math.BigDecimal;
 

@@ -1,6 +1,6 @@
-package pl.kurs.interfaces;
+package pl.kurs.weatherforecastapp.interfaces;
 
-import pl.kurs.model.WeatherInfo;
+import pl.kurs.weatherforecastapp.model.WeatherInfo;
 
 import java.math.BigDecimal;
 

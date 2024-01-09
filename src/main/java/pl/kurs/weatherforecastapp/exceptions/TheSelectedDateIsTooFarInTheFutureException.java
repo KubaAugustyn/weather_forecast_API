@@ -1,4 +1,4 @@
-package pl.kurs.exceptions;
+package pl.kurs.weatherforecastapp.exceptions;
 
 public class TheSelectedDateIsTooFarInTheFutureException extends RuntimeException {
     public TheSelectedDateIsTooFarInTheFutureException() {

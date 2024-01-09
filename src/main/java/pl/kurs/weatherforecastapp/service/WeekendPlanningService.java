@@ -1,13 +1,13 @@
-package pl.kurs.service;
+package pl.kurs.weatherforecastapp.service;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.json.simple.parser.ParseException;
-import pl.kurs.exceptions.TheSelectedDateIsInThePastException;
-import pl.kurs.exceptions.TheSelectedDateIsTooFarInTheFutureException;
-import pl.kurs.interfaces.PointsFromDatabase;
-import pl.kurs.interfaces.PointsFromWeatherInfo;
-import pl.kurs.interfaces.WhetherTheDataAreInTheDatabase;
-import pl.kurs.interfaces.WeatherAPI;
+import pl.kurs.weatherforecastapp.exceptions.TheSelectedDateIsInThePastException;
+import pl.kurs.weatherforecastapp.exceptions.TheSelectedDateIsTooFarInTheFutureException;
+import pl.kurs.weatherforecastapp.interfaces.PointsFromDatabase;
+import pl.kurs.weatherforecastapp.interfaces.PointsFromWeatherInfo;
+import pl.kurs.weatherforecastapp.interfaces.WhetherTheDataAreInTheDatabase;
+import pl.kurs.weatherforecastapp.interfaces.WeatherAPI;
 
 import java.io.IOException;
 import java.math.BigDecimal;

@@ -1,9 +1,9 @@
-package pl.kurs.service;
+package pl.kurs.weatherforecastapp.service;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import pl.kurs.interfaces.ApiConnection;
+import pl.kurs.weatherforecastapp.interfaces.ApiConnection;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

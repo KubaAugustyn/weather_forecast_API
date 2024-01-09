@@ -1,8 +1,8 @@
-package pl.kurs.interfaces;
+package pl.kurs.weatherforecastapp.interfaces;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.json.simple.parser.ParseException;
-import pl.kurs.model.WeatherInfo;
+import pl.kurs.weatherforecastapp.model.WeatherInfo;
 
 import java.io.IOException;
 import java.sql.SQLException;

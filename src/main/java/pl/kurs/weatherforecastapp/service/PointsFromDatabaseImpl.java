@@ -1,7 +1,7 @@
-package pl.kurs.service;
+package pl.kurs.weatherforecastapp.service;
 
 import org.apache.commons.dbcp2.BasicDataSource;
-import pl.kurs.interfaces.PointsFromDatabase;
+import pl.kurs.weatherforecastapp.interfaces.PointsFromDatabase;
 
 import java.math.BigDecimal;
 import java.sql.*;

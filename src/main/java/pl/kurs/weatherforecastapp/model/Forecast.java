@@ -1,6 +1,6 @@
-package pl.kurs.model;
+package pl.kurs.weatherforecastapp.model;
 
-import pl.kurs.enums.WeatherType;
+import pl.kurs.weatherforecastapp.enums.WeatherType;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

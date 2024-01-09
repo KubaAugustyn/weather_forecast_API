@@ -1,4 +1,4 @@
-package pl.kurs.interfaces;
+package pl.kurs.weatherforecastapp.interfaces;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 

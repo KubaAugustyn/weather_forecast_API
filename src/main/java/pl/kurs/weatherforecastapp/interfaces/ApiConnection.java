@@ -1,4 +1,4 @@
-package pl.kurs.interfaces;
+package pl.kurs.weatherforecastapp.interfaces;
 
 import okhttp3.Response;
 

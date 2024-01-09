@@ -1,9 +1,20 @@
-package pl.kurs;
+package pl.kurs.weatherforecastapp.app;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.json.simple.parser.ParseException;
-import pl.kurs.interfaces.*;
-import pl.kurs.service.*;
+import pl.kurs.weatherforecastapp.interfaces.ApiConnection;
+import pl.kurs.weatherforecastapp.interfaces.PointsFromDatabase;
+import pl.kurs.weatherforecastapp.interfaces.PointsFromWeatherInfo;
+import pl.kurs.weatherforecastapp.interfaces.UrlStringBuilder;
+import pl.kurs.weatherforecastapp.interfaces.WeatherAPI;
+import pl.kurs.weatherforecastapp.interfaces.WhetherTheDataAreInTheDatabase;
+import pl.kurs.weatherforecastapp.service.ApiConnectionImpl;
+import pl.kurs.weatherforecastapp.service.PointsFromDatabaseImpl;
+import pl.kurs.weatherforecastapp.service.PointsFromWeatherInfoImpl;
+import pl.kurs.weatherforecastapp.service.UrlStringBuilderImpl;
+import pl.kurs.weatherforecastapp.service.WeatherAPIImpl;
+import pl.kurs.weatherforecastapp.service.WeekendPlanningService;
+import pl.kurs.weatherforecastapp.service.WhetherTheDataAreInTheDatabaseImpl;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -11,7 +22,7 @@ import java.time.LocalDate;
 import java.util.*;
 
 
-public class App {
+public class Main {
     public static void main(String[] args) throws IOException, SQLException, ParseException {
 
         BasicDataSource dataSource = new BasicDataSource();
